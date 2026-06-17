@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5259/api';
-
+const API_URL = 'https://cryptotracker-pg3h.onrender.com/api';
 const getToken = () => localStorage.getItem('token');
 
 const authHeader = () => ({
